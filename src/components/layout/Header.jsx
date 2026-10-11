@@ -11,7 +11,7 @@ export default function Header() {
     <header className="flex shrink-0 flex-wrap items-center justify-between gap-x-3 gap-y-2 border-b border-slate-200 bg-white px-4 py-2">
       <Link to={`/${lang}`} className="flex items-center gap-2">
         <img src={logo} alt="" width="32" height="32" />
-        <span className="text-lg font-extrabold tracking-tight text-slate-900">Kalkulator<span className="text-brand">Keuangan</span>.id</span>
+        <span className="text-lg font-extrabold tracking-tight text-slate-900">Kalkulator<span className="text-brand">Cicilan</span></span>
       </Link>
       <TabNavigation className="order-last w-full md:order-none md:w-auto" />
       <div className="flex items-center gap-2"><LanguageSwitcher /><ThemeToggle /></div>

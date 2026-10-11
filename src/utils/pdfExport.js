@@ -10,7 +10,7 @@ export async function exportPDF({ t = (x) => x, judul, params, ringkasan, kolom,
   doc.setFillColor(16, 185, 129)
   doc.roundedRect(40, 32, 34, 34, 8, 8, 'F')
   doc.setTextColor(255, 255, 255).setFont('helvetica', 'bold').setFontSize(16).text('K', 52, 55)
-  doc.setTextColor(15, 23, 42).text('KalkulatorKeuangan.id', 84, 47)
+  doc.setTextColor(15, 23, 42).text('KalkulatorCicilan', 84, 47)
   doc.setFont('helvetica', 'normal').setFontSize(9).setTextColor(100, 100, 100)
   doc.text(t('Simulasi keuangan gratis dan instan'), 84, 61)
   doc.text(tanggalPanjang(), W - 40, 47, { align: 'right' })
